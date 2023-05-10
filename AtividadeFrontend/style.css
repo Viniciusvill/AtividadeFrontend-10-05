@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #C1D0B5;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    padding: 1.3rem;
+    background-color: #99A98F;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    height: 5vh;
+}
+
+header a{
+    color: white;
+}
+
+main {
+    height: 90vh;
+    margin: 1.5rem;
+}
+
+#help {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#help_botao {
+    all: unset;
+    background: #99A98F;
+    padding: 0.7em;
+    border-radius: 4em;
+    cursor: pointer;
+}
+
+#help_botao:hover{
+    background: #6d7e63;
+}
+
+footer {
+    height: 5vh;
+    padding: 1.2rem;
+    background-color: #99A98F;
+}
